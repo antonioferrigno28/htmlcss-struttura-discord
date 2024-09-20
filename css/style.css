@@ -19,38 +19,78 @@
   background-color: rgb(39, 196, 8);
 }
 
+/* NAV */
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
 /* HEADER */
 
-.page-header > .container {
+.page-header {
   display: flex;
-  justify-content: space-between;
-  width: 1000px;
+  width: 100%;
+  justify-content: center;
+}
+
+.page-header > .pos {
+  display: flex;
+  margin: 1% 15%;
+  width: 100%;
 }
 
 .link-item {
   display: inline-block;
 }
 
+.header-login {
+  display: flex;
+  justify-content: flex-end;
+}
+
 /* UTILS */
 
 .container {
-  margin: 0 auto;
-  padding: 0 10px;
+  display: flex;
+  width: 100%;
+  margin: 20px auto;
+  padding: 0;
 }
 
 a {
   display: inline-block;
   color: white;
   text-decoration: none;
+  margin-right: 10px;
+}
+
+.w-25 {
+  width: 25%;
+}
+
+.w-50 {
+  width: 50%;
 }
 
 /* MAIN */
 
-main > .container {
+.presentation {
   display: flex;
   justify-content: center;
-  margin: 20px 0px;
-  height: 500px;
-  width: 60%;
+  height: 350px;
+  width: 40%;
   align-items: center;
+}
+
+li {
+  padding: 20px 0;
+}
+
+li:nth-child(odd) {
+  background-color: white;
+}
+
+li:nth-child(even) {
+  background-color: rgb(151, 151, 151);
 }
