@@ -41,7 +41,7 @@ nav {
 .page-header > .pos {
   display: flex;
   margin: 1% 15%;
-  width: 100%;
+  width: 60%;
 }
 
 .link-item {
@@ -54,6 +54,11 @@ nav {
 }
 
 /* UTILS */
+
+hr {
+  width: 60%;
+  margin: 15px auto;
+}
 
 .container {
   display: flex;
@@ -101,7 +106,7 @@ a {
 .sm-column {
   display: flex;
   justify-content: center;
-  width: 40%;
+  width: 30%;
   height: 100%;
   background-color: green;
   flex: 1;
@@ -123,4 +128,17 @@ a {
   align-items: center;
 }
 .end-presentation {
+  display: flex;
+  justify-content: center;
+  height: 1000px;
+  width: 60%;
+  align-items: center;
+  background-color: grey;
+}
+
+.page-footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-top: 30px;
 }
