@@ -46,12 +46,11 @@ a {
 
 /* MAIN */
 
-.container > .presentation {
+main > .container {
   display: flex;
   justify-content: center;
-  width: 60%;
-}
-
-.presentation {
+  margin: 20px 0px;
   height: 500px;
+  width: 60%;
+  align-items: center;
 }
