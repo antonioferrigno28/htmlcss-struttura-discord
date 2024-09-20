@@ -105,3 +105,6 @@ li:nth-child(odd) {
 li:nth-child(even) {
   background-color: rgb(151, 151, 151);
 }
+
+.end-presentation {
+}
