@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/* Debug */
+.debug {
+  color: white;
+  background-color: blue;
+  border: 1px dashed black;
+  padding: 5px;
+}
+
+.debug .debug {
+  background-color: rgb(122, 12, 12);
+}
+
+.debug .debug .debug {
+  background-color: rgb(39, 196, 8);
+}
+
+/* HEADER */
+
+.page-header > .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.link-item {
+  display: inline-block;
+}
+
+/* UTILS */
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+  width: 1000px;
+  max-width: 100%;
+}
+
+a {
+  display: inline-block;
+  color: white;
+}
