@@ -4,11 +4,12 @@
   padding: 0;
 }
 
+/* Debug */
+
 .debug .presentation {
   background-color: blueviolet;
 }
 
-/* Debug */
 .debug {
   color: white;
   background-color: blue;
@@ -42,10 +43,6 @@ nav {
   display: flex;
   margin: 1% 15%;
   width: 60%;
-}
-
-.link-item {
-  display: inline-block;
 }
 
 .header-login {
@@ -114,6 +111,7 @@ a {
 
 .button {
   cursor: pointer;
+  padding: 5px 10px;
 }
 
 /* MAIN */
@@ -142,14 +140,6 @@ a {
 
 /* FOOTER */
 
-.page-footer {
-  display: flex;
-  width: 100%;
-  justify-content: center;
-  height: 100px;
-  margin-top: 40px;
-}
-
 .footer-pos {
   display: flex;
   justify-content: center;
@@ -161,4 +151,8 @@ a {
   justify-content: space-between;
   padding: 10px 0px;
   width: 60%;
+}
+
+.logo {
+  padding: 5px 10px;
 }
