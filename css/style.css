@@ -112,6 +112,10 @@ a {
   flex: 1;
 }
 
+.button {
+  cursor: pointer;
+}
+
 /* MAIN */
 
 .presentation {
@@ -136,9 +140,25 @@ a {
   background-color: grey;
 }
 
+/* FOOTER */
+
 .page-footer {
   display: flex;
   width: 100%;
   justify-content: center;
-  margin-top: 30px;
+  height: 100px;
+  margin-top: 40px;
+}
+
+.footer-pos {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+  width: 60%;
 }
